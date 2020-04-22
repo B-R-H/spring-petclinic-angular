@@ -1,4 +1,4 @@
-FROM node:10-alpine as build
+FROM node:10
 EXPOSE 4200
 RUN npm install -g @angular/cli@latest
 COPY . ./app
